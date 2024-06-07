@@ -33,15 +33,22 @@
 .cont2{
     margin: 70px 0px 30px 0;
     text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.cont2 h3{
+    font-weight: lighter;
+    color: rgb(109, 109, 109);
+    padding-top: 10px;
+
 }
 .cont2 p{
     color: black;
+    font-weight: bolder;
+    font-size: 20px;
 }
-.cont2 p :first-child{
-    font-size: larger;
-}
-.cont2 p :nth-last-child(){
-    font-size: larger;
+.cont2 span{
+    font-weight: lighter;
+    color: rgb(109, 109, 109);
 }
 footer{
     display: flex;
